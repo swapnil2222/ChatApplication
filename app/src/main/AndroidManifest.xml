@@ -14,12 +14,26 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
             android:name=".Welcome"
-            android:label="@string/title_activity_welcome"></activity>
+            android:label="@string/title_activity_welcome" />
+        <activity
+            android:name=".ForgotPassword"
+            android:label="@string/title_activity_forgot_password"
+            android:theme="@android:style/Theme.Dialog"></activity>
+        <activity
+            android:name=".LauncherActivity"
+            android:label="@string/title_activity_launcher"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

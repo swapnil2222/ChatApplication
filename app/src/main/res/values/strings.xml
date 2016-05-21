@@ -2,4 +2,6 @@
     <string name="app_name">SggsAt a Glance</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_forgot_password">ForgotPassword</string>
+    <string name="title_activity_launcher">LauncherActivity</string>
 </resources>
